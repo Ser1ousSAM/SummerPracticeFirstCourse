@@ -5,7 +5,7 @@ def read_txt_file():
         data = f.read()
         print(data)
         return data
-=======
+
 # User Gleb: writting into file
 def write_in_txt_file():
     with open('test.txt', 'w') as writer:
