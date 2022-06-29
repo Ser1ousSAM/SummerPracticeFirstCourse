@@ -9,7 +9,7 @@ def delete_file():
     except:
         print("The system cannot find the file specified")
         return False
-=======
+
 # User Kovylin: Reading a file
 def read_txt_file():
     file = 'file.txt'
@@ -17,7 +17,7 @@ def read_txt_file():
         data = f.read()
         print(data)
         return data
-=======
+
 # User Gleb: writting into file
 def write_in_txt_file():
     with open('test.txt', 'w') as writer:
